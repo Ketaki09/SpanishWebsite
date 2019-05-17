@@ -1,0 +1,307 @@
+.con{
+    position: relative;  
+    color: white;
+    display: block;
+    color: #595959;
+    font-family: arial,roboto,sans-serif;
+    width: 80%;
+    margin: auto
+  }
+
+.navigation-bar {
+    width: 100%;  
+    height: 55px; 
+    background-color: #90c7e3;
+    text-transform: uppercase; 
+    text-align:  right;
+    text-decoration: none;
+    position: center;
+ }
+.logo {
+        display: inline-block;
+        vertical-align: text-bottom;
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        margin-top: 15px;  
+        text-transform: uppercase;  /* if you want it vertically middle of the navbar. */
+        text-decoration: none;
+ }
+ .navigation-bar > a {
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 20px;
+    height: 60px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+    text-transform: uppercase;
+    text-align:  right;
+    position: center;
+    }
+a {
+        text-decoration: none;
+    }     
+.middle1 {
+    position: relative;  
+    color: white;
+    display: block;
+    color: #595959;
+    font-family: arial,roboto,sans-serif;
+    width: 80%;
+    margin: auto
+}
+
+.middle2 {
+    position: relative;  
+    color: white;
+    display: block;
+    color: #595959;
+    font-family: arial,roboto,sans-serif;
+    width: 65%;
+    margin: auto;
+    font-display: bold;
+}
+
+.alpha{
+    font-size: 1em;
+}
+
+fieldset { 
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #e9e3e3;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 20px;
+    font-display: Bold;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    font-display: Bold;
+  }
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+  }
+input[name=emailinput]
+{
+  width: 30%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 50px 0px 0px 50px;
+  outline: none;
+}
+input[name=halfinputname]
+{
+  width: 40%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  outline: none;
+}
+input[name=halfinputpass]
+{
+  width: 40%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  outline: none;
+}
+  input[type=number] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+  }
+  input[type=password] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+  }
+ 
+  .button {
+    background-color: #ffc300; 
+    border: none;
+    color: #595959;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 2px;
+    cursor: pointer;
+    border-radius: 45px;
+  }
+  .footero {
+    font-size: .70em;
+    font-family: Arial, Roboto, sans-serif;
+    text-align: center;
+    font-display: #595959;
+    
+    }
+  .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-display: #ffc300;
+        color: #ffc300
+      }
+      span.psw {
+
+        padding-top: 16px;
+      }
+.popup {
+  padding: 100px 50px 100px 75px;
+  font-family: Arial, Roboto, sans-serif;
+  font-display: #595959;
+  width: 80%
+}
+
+.button19 {
+  background-color: #ffc300; 
+  border: none;
+  color: #595959;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  float: right;
+}
+
+
+
+.middle3 {
+  position: center;  
+  color: white;
+  color: #595959;
+  font-family: arial,roboto,sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+  width: 80%;
+}
+.flex-container {
+  display: flex;
+  float: auto;
+  justify-content: center;
+  background-color: #ffc300;
+  width: 100%;
+}
+.flex1 {
+  width: 100px;
+  font-size: 9px;
+  margin: 10px 0px 10px 0px;
+}
+
+.button:hover {background-color: #ffc300}
+
+.button:active {
+  background-color: #ffc300;
+  transform: translateY(4px);
+}
+.submitalign {
+  text-align: right;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.button2 {
+  background-color: #ffc300; 
+  border-radius: 20%;
+  color: #595959;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+a { color: inherit; } 
+html {
+  font-family: Arial, Roboto, sans-serif;
+  font-size: medium;
+
+}
+
+.coll {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 960px;
+ 
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  border: 10px solid rgba(0, 0, 0, 0);
+  text-align: left;
+}
+
+.emailbutton {
+  
+    background-color: black; 
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 8px;
+    margin: 10px 7px 10px 0px;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.emailbutton:hover {background-color: #ffc300}
+
+.emailbutton:active {
+  background-color: #ffc300;
+  transform: translateY(4px);
+}
